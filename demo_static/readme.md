@@ -1,6 +1,7 @@
 This is a demo project on creating a static website hosting using Azure cloud platform
 
 STEPS 
+
 1.check whether you have a storage account within your subscription
 2.if you have the storage account then enable the static website option inside the data management in the respective storage account
 3.write the index document name and optionally add a error file path for efficiency and save the changes
