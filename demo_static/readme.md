@@ -3,12 +3,19 @@ This is a demo project on creating a static website hosting using Azure cloud pl
 STEPS 
 
 1.check whether you have a storage account within your subscription
+
 2.if you have the storage account then enable the static website option inside the data management in the respective storage account
+
 3.write the index document name and optionally add a error file path for efficiency and save the changes
+
 4.copy the primary endpoint URL
+
 5.go to the containers option in data storage section and find the $web 
+
 6.if found then static website has been successfully enabled and ready to upload the files
+
 7.upload your website files into the $web and save the changes
+
 8.paste the primary endpoint URL into the browser to view the static website.
 
 POTENTIAL ERRORS 
