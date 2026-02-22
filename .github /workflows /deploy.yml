@@ -22,4 +22,4 @@ jobs:
         az storage blob upload-batch \
           --account-name ravigarastorageaccount \
           -d '$web' \
-          -s .
+          -s ProjectStaticWeb
