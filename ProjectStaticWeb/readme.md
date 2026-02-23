@@ -1,6 +1,6 @@
-Azure Static Website Deployment with CI/CD
+🚀 Azure Static Website Deployment with CI/CD
 
-A production-ready static website deployed using Microsoft Azure Storage with an automated CI/CD pipeline using GitHub Actions.
+A static website deployed using Microsoft Azure Storage with an automated CI/CD pipeline using GitHub Actions.
 
 This project demonstrates cloud deployment automation, secure authentication using Azure Service Principal, and static website hosting architecture.
 
@@ -8,19 +8,10 @@ This project demonstrates cloud deployment automation, secure authentication usi
 
 This project provisions a static website hosted on Azure Blob Storage and automatically deploys updates using GitHub Actions whenever changes are pushed to the main branch.
 
-🏗 Architecture
+🏗 Architecture Diagram
 
-Developer (Git Push)
-        ↓
-GitHub Repository
-        ↓
-GitHub Actions Runner (Ubuntu VM)
-        ↓
-Azure Login (Service Principal - RBAC)
-        ↓
-Azure Storage Account ($web container)
-        ↓
-Public Static Website Endpoint
+<img width="1536" height="1024" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/809d1e93-6571-45c6-affa-26964ec09f4f" />
+
 
 🧰 Tech Stack
 
@@ -33,19 +24,6 @@ Azure CLI
 GitHub Actions (CI/CD)
 
 Azure RBAC (Role-Based Access Control)
-
-📂 Project Structure
-
-AzureProjects/
-│
-├── ProjectStaticWeb/
-│     ├── index.html
-│     ├── style.css
-│     └── 404.html
-│
-└── .github/
-      └── workflows/
-            └── deploy.yml
 
 ⚙️ Implementation Steps
 1️⃣ Create Azure Resources
